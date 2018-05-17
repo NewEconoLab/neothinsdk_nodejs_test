@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.3",
     "nel-neo-thinsdk": "0.0.9"
   }
 }
