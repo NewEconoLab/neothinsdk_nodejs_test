@@ -3,7 +3,7 @@ var thinNeo = require("nel-neo-thinsdk");
 var express = require('express');
 var app = express();
 
-//NEO thinSDK api
+//NEO thinSDK RESTful API
 app.get('/addr2pksh/:addr', function (req, res) {
     var input = req.params.addr;
     var output = {
@@ -24,6 +24,8 @@ app.get('/pksh2addr/:pksh', function (req, res) {
 app.listen(3000, function () {
     console.log('NEO thinSDK Test listening on port 3000!');
 });
+
+// test code
 
 // addr2pksh('ALjSnMZidJqd18iQaoCgFun6iqWRm2cVtj');
 // console.log("");
